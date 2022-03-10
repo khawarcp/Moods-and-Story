@@ -591,4 +591,7 @@ h2{
   .subscribe-img img {
     object-fit: contain;
   }
+  .about-banner {
+    min-height: 180px;
+}
 }
