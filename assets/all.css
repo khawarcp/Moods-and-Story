@@ -434,6 +434,9 @@ h2{
 .main-content{
   padding-top : 0;
 }
+.home-text-btns a:last-child {
+    margin-left: 20px;
+}
 
 @media screen and (min-width:1400px){
     .scroll-down{
