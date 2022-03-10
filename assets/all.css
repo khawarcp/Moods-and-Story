@@ -589,12 +589,16 @@ h2{
         margin-bottom: 20px;
     }
   .subscribe-img img {
-    object-fit: contain;
+    object-fit: cover;
   }
   .about-banner {
     min-height: 180px;
 }
 .subscribe-img {
     height: 358px;
+}
+.subscribe-text>button {
+    top: -330px;
+    right: 15px;
 }  
 }
