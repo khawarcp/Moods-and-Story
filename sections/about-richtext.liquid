@@ -1,0 +1,27 @@
+<section class="about-us-content">
+    <div class="container">
+        <div class="about-us-bg" style="background-image: url('{{ section.settings.back_image | img_url : 'master' }}');">
+            <div class="about-us-text">
+                {{ section.settings.info }}
+            </div>
+        </div>
+    </div>
+</section>
+{% schema %}
+{
+    "name" : "Richtext",
+    "settings" :
+    [
+        {
+            "type" : "image_picker",
+            "id" : "back_image",
+            "label" : "Background Image"
+        },
+        {
+            "type" : "richtext",
+            "id" : "info",
+            "label" : "Description"
+        }   
+    ]
+}
+{% endschema %}

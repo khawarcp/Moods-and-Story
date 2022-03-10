@@ -1,0 +1,54 @@
+<section class="story-teller">
+    <div class="moods-story-logo">
+        <img src="{{'moods-story-logo.png' |  asset_img_url: 'master'}}" alt="moods-story-logo">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="story-teller-img">
+                  {% if section.settings.image != blank %}
+                    <img src="{{ section.settings.image | img_url : 'master' }}"  class="lazyload" alt="stay-connected">
+                  {% endif %}
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="story-teller-text">
+                    <h4> {{ section.settings.heading }} </h4>
+                    <p> {{ section.settings.info }} </p>
+                  {% if section.settings.button_text != blank %}
+                    <a href="#" class="custom-site-btn custom-site-btn2 custom-site-btn3" data-bs-toggle="modal" data-bs-target="#subscribe-modal">{{ section.settings.button_text }}</a>
+                  {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% schema %}
+{
+    "name" : "Teller",
+    "settings" :
+    [
+        {
+            "type" : "text",
+            "id" : "heading",
+            "label" : "Heading"
+        },
+        {
+            "type" : "textarea",
+            "id" : "info",
+            "label" : "Description"
+        },
+        {
+            "type" : "text",
+            "id" : "button_text",
+            "label" : "Button Text"
+        },
+        {
+            "type" : "image_picker",
+            "id" : "image",
+            "label" : "Image"
+        }
+    ]
+}
+{% endschema %}
+    

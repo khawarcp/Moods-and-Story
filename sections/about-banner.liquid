@@ -1,0 +1,19 @@
+<section class="about-banner lazyload" style="background-image: url('{{ section.settings.banner | img_url : 'master' }}')">
+    <div class="about-text">
+        <h3> {{ page.title }} </h3>
+    </div>
+</section>
+
+{% schema %}
+{
+    "name" : "Banner",
+    "settings" :
+    [
+        {
+            "type" : "image_picker",
+            "id" : "banner",
+            "label" : "Banner"
+        }
+    ]
+}
+{% endschema %}

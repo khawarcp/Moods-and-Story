@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.home-banner {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+a,span {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.home-text {
+    padding: 100px 0px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.logo {
+    margin-bottom: 15px;
+}
+
+.home-text h4 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.home-text p {
+    max-width: 400px;
+}
+
+.home-text p {
+    color: rgb(255 255 255 / 90%);
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+}
+
+.home-text p + p {
+    margin-bottom: 30px;
+}
+
+.custom-site-btn {
+    border-top: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-bottom: 1px solid #FFFFFF;
+    padding: 10px 15px;
+    transition: 0.2s all;
+}
+
+.custom-site-btn:hover {
+    background-color: #FFFFFF;
+    color: #000;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    right: 0px;
+    max-width: 1140px;
+    margin: 0px auto;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+}
+
+.scroll-down span {
+    width: 15.69px;
+    height: 23.94px;
+    border: 1px solid #B4B3B4;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.scroll-down span::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 4px;
+    width: 0.83px;
+    height: 7.43px;
+    background-color: #B4B3B4;
+    margin: auto;
+    animation: wheel 2s infinite;
+    -webkit-animation: wheel 2s infinite;
+}
+
+.brand-story-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.brand-story-text {
+    text-align: center;
+    max-width: 950px;
+    margin: 0px auto;
+    padding-bottom: 10px;
+}
+
+.brand-story {
+    padding: 70px 0px 60px;
+    position: relative;
+}
+
+.brand-story-text h4 {
+    color: #060705;
+    margin-bottom: 15px;
+}
+
+.brand-story-text p {
+    color: #060705;
+}
+
+.brand-story-col {
+    width: 49.5%;
+}
+.custom-site-btn.custom-site-btn2 {
+    color: #060705;
+    border-top: 1px solid #060705;
+    border-bottom: 1px solid #060705;
+    display: block;
+    width: max-content;
+    margin: 40px auto 0px;
+}
+
+.custom-site-btn.custom-site-btn2:hover {
+    background-color: #060705;
+    color: #fff;
+}
+.moods-story-logo {
+    width: 128px;
+    margin-left: auto;
+    position: absolute;
+    right: 4%;
+    top: 40px;
+}
+.made-for-sequels {
+    position: relative;
+}
+.made-for-sequels-text {
+    position: absolute;
+    top: 120px;
+    max-width: 370px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 40px 40px;
+}
+
+.made-for-sequels-text h4 {
+    color: #060705;
+    margin-bottom: 12px;
+}
+
+.made-for-sequels-text h4 + p {
+    font-weight: 400;
+    color: #060705;
+    margin-bottom: 8px;
+    max-width: 250px;
+    margin: 0px auto 8px;
+}
+
+.made-for-sequels-text p {
+    color: #060705;
+}
+.story-teller {
+    position: relative;
+    padding: 100px 0px 80px;
+}
+
+.story-teller .container {
+    max-width: 1000px;
+}
+
+.story-teller .row {
+    align-items: center;
+}
+
+.story-teller  .story-teller-text {
+    padding-left: 30px;
+}
+
+.story-teller .story-teller-text h4 {
+    max-width: 275px;
+    color: #060705;
+    margin-bottom: 20px;
+}
+
+.h4, h4 {
+    letter-spacing: 2px;
+}
+
+.story-teller-text p {
+    color: #060705;
+    margin-bottom: 25px;
+}
+
+.custom-site-btn.custom-site-btn2.custom-site-btn3 {
+    display: inline-block;
+    margin-top: 0px;
+}
+footer {
+    background-color: #060705;
+}
+
+.footer-top {
+    padding: 60px 0px 40px;
+    text-align: center;
+}
+
+.footer-logo {
+    margin-bottom: 40px;
+}
+
+.footer-top h6 {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.custom-site-btn i {
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #0F110D;
+    padding: 20px 0px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+div#subscribe-modal .modal-body {
+    display: flex;
+    padding: 0;
+    border-radius: 0px !important;
+    width: 100%;
+    align-items: center;
+}
+
+#subscribe-modal .modal-content {
+    border-radius: 0px;
+    display: block;
+}
+
+div#subscribe-modal .modal-dialog {
+    max-width: 1000px;
+}
+
+.subscribe-img {
+    width: 50%;
+}
+
+.subscribe-text {
+    width: 50%;
+    padding: 80px 40px;
+    position: relative;
+}
+
+.subscribe-text h5 {
+    color: #060705;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.input-container input {
+    border: 0px;
+    border-bottom: 1px solid #B4B3B4;
+    width: 100%;
+    color: #060705;
+    font-size: 14px;
+    padding: 8px 0px;
+    margin-bottom: 15px;
+}
+
+.input-container input::placeholder {
+    color: #060705;
+}
+
+input.custom-site-btn.custom-site-btn2 {
+    background-color: transparent;
+    border-left: 0px;
+    border-right: 0px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+input:focus {
+    /* border: 0px; */
+    outline: 0px;
+}
+
+.subscribe-text>button {
+    border: 0px;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+.about-banner {
+    min-height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text h3 {
+    margin: 0;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+.about-us-bg {
+    background-repeat: no-repeat;
+    background-color: #E9E9E9;
+    min-height: 400px;
+    background-size: contain;
+    background-position: left;
+    padding: 40px 0px;
+}
+
+.about-us-text {
+    width: 50%;
+    margin-left: auto;
+    padding: 0px 30px;
+}
+
+.about-us-content {
+    padding: 60px 0px;
+}
+
+.about-us-text p {
+    color: #060705;
+}
+.about-properties {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-properties-img img {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+    margin: auto;
+}
+
+.about-properties-col {
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid #C4C4C4;
+    padding: 50px 20px;
+    position: relative;
+}
+
+.about-properties-col:last-child {
+    border-right: 0px;
+}
+
+.about-properties-img {
+    margin-bottom: 20px;
+}
+
+.about-properties-text h5 {
+    color: #FFFFFF;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.about-properties-text p {
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+.about-properties::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgb(6 7 5 / 50%);
+}
+@keyframes wheel {
+  to {
+    opacity: 1;
+    top: 10px;
+  }
+}
+
+h2{
+  text-transform : inherit;
+  letter-spacing : inherit;
+}
+
+.modal{
+  opacity : 1 !important;
+  background : transparent;
+}
+
+.main-content{
+  padding-top : 0;
+}
+
+@media screen and (min-width:1400px){
+    .scroll-down{
+        max-width: 1320px;
+    }
+}
+@media screen and (max-width:1199px){
+    .home-banner {
+        min-height: 570px;
+    }
+    
+    .scroll-down {
+        max-width: 960px;
+    }
+    
+    .home-text {
+        padding: 80px 0px;
+    }
+    .about-banner {
+        min-height: 300px;
+    }
+}
+@media screen and (max-width:991px){
+    .logo a {
+        width: 400px;
+    }
+    
+    .story-teller .story-teller-text {
+        padding-left: 0px;
+    }
+    
+    .scroll-down {
+        max-width: 720px;
+    }
+    
+    .made-for-sequels-text {top: 65px;}
+    .about-properties-col {
+        width: 50%;
+    }
+    
+    .about-properties {
+        flex-wrap: wrap;
+    }
+    
+    .about-properties-col:nth-child(2) {
+        border: 0px;
+        border-bottom: 1px solid #C4C4C4;
+    }
+    
+    .about-properties-col:nth-child(1) {
+        border-bottom: 1px solid #C4C4C4;
+    }
+    .about-us-text p {
+        font-size: 12px;
+    }
+    .subscribe-img {
+        height: 470px;
+    }
+    
+    .subscribe-img img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .subscribe-text>button {
+        top: 15px;
+        right: 15px;
+    }
+    
+    .subscribe-text {
+        padding: 80px 30px;
+    }
+}
+@media screen and (max-width:767px){
+    .logo a {
+        width: 300px;
+    }
+    
+    .moods-story-logo {
+        left: 0px;
+        right: 0px;
+        margin: auto;
+        top: 45px;
+    }
+    
+    .brand-story {
+        padding: 100px 0px 60px;
+    }
+    
+    .made-for-sequels-text {
+        position: relative;
+        top: auto;
+        left: auto;
+        padding: 15px;
+        margin-top: 30px;
+    }
+    
+    .story-teller .story-teller-text {
+        margin-top: 30px;
+    }
+    .about-us-text {
+        width: 100%;
+        padding-top: 190px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .about-us-bg {
+        background-position: top;
+    }
+    
+    .about-properties-col {
+        width: 100%;
+        border-right: 0px;
+    }
+    
+    .about-properties-col:nth-child(3) {
+        border-bottom: 1px solid #C4C4C4;
+    }
+    .footer-logo {
+        margin-bottom: 30px;
+    }
+    div#subscribe-modal .modal-body {
+        flex-direction: column;
+    }
+    
+    .subscribe-img {
+        width: 100%;
+    }
+    
+    .subscribe-text {
+        width: 100%;
+        padding: 30px 20px;
+    }
+    .subscribe-text>button {
+        top: -445px;
+        right: 15px;
+    }
+    .subscribe-text h5 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}

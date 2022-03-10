@@ -1,0 +1,47 @@
+<footer>
+    <div class="footer-top">
+        <div class="footer-logo">
+            {% if section.settings.footer_logo != blank %}
+            <a href="{{ routes.root_url }}">
+                <img src="{{ section.settings.footer_logo | img_url: 'master'}}" class="lazyload" alt="footer-logo">
+            </a>
+            {% endif %}
+        </div>
+        <h6> {{ section.settings.heading }} </h6>
+        {% if settings.social_instagram_link != blank %}
+        <a href="{{ settings.social_instagram_link }}" class="custom-site-btn"><i class="fa fa-instagram" aria-hidden="true"></i>{{  section.settings.insta_heading }}</a>
+        {% endif %}
+    </div>
+    <div class="footer-bottom">
+        <p> {{ section.settings.copyright }} </p>
+    </div>
+</footer>
+{% schema %}
+{
+    "name" : "Footer",
+    "settings":
+    [
+        {
+            "type" : "image_picker",
+            "id" : "footer_logo",
+            "label" : "Logo"
+        },
+        {
+            "type" : "text",
+            "id" : "heading",
+            "label" : "Heading"
+        },
+        {
+            "type" : "text",
+            "id" : "insta_heading",
+            "label" : "Instagram Heading"
+        },
+        {
+            "type" : "textarea",
+            "id" : "copyright",
+            "label" : "Copyright text"
+        }
+    ]
+
+}
+{% endschema %}
