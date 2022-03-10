@@ -437,6 +437,14 @@ h2{
 .home-text-btns a:last-child {
     margin-left: 20px;
 }
+.story-teller-text.story-teller-text-wrapper {
+    text-align: center;
+}
+
+.story-teller-text.story-teller-text-wrapper h4 {
+    text-align: center;
+    margin: 0px auto 20px;
+}
 
 @media screen and (min-width:1400px){
     .scroll-down{
