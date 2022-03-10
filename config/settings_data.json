@@ -1,6 +1,6 @@
 {
   "current": {
-    "popup_image": "shopify:\/\/shop_images\/subscribe-img.png",
+    "popup_image": "shopify:\/\/shop_images\/newsletter-img.png",
     "title": "Something awesome is on the way!",
     "social_instagram_link": "http:\/\/instagram.com\/shopify",
     "sections": {
@@ -194,6 +194,7 @@
       },
       "16451884260bb00d04": {
         "type": "index-bandstory",
+        "disabled": true,
         "settings": {
           "heading": "Brand Story",
           "info": "<p>Before we use our words to articulate who we are, personal style is one way  we share our individuality with the world. We believe everyone deserves the  creative freedom to convey their truest self—even as they’re figuring out  who that is.<\/p>",
@@ -205,6 +206,7 @@
       },
       "1645189121a601c8d5": {
         "type": "index-sequels",
+        "disabled": true,
         "settings": {
           "heading": "Made For Sequels",
           "info_1": "Some call them hand-me-downs, we call them sequels",
@@ -216,6 +218,7 @@
       },
       "1645189468888b7fc6": {
         "type": "index-story",
+        "disabled": true,
         "settings": {
           "heading": "We believe everyone is born a storyteller",
           "info_1": "It doesn’t take years of wisdom or a way with words. We all have a unique story to share. That’s why we design clothes that empower even the littlest narrators to share theirs. Whether you’re a rockstar or stargazer, athlete or artist, bookworm or social butterfly, comedian or quirkster, personal style helps you shape and share your identity with the world around you.",
