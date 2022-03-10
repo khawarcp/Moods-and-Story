@@ -9,7 +9,9 @@
       <div class="home-text-btns">
       <a href="#" class="custom-site-btn" data-bs-toggle="modal" data-bs-target="#subscribe-modal">Subscribe
         Now</a>
-        <a href="#" class="custom-site-btn">About Us</a>
+		{% if section.settings.link != blank and section.settings.button_text != blank %}
+        <a href="{{ section.settings.link }}" class="custom-site-btn"> {{ section.settings.button_text }} </a>			
+		{% endif %}
       </div>
     </div>
     <div class="scroll-down">
@@ -47,6 +49,17 @@
 			"type" : "image_picker",
 			"id" : "banner",
 			"label" : "Banner"
+		},
+		{
+			"type" : "text",
+			"id" : "button_text",
+			"label" : "About",
+			"default": "About Us"
+		},
+		{
+			"type": "url",
+			"id": "link",
+			"label": "Link"
 		}
 	],
 	"presets":
