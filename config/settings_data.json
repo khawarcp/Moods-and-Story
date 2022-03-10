@@ -189,7 +189,9 @@
           "logo": "shopify:\/\/shop_images\/logo.png",
           "heading": "Style to be continued. . .",
           "info": "<p>Moods & Story is a style house for young storytellers who share their narrative through fashion.<\/p><p>Something awesome is on the way! Subscribe today and get access to exclusive launch details!<\/p>",
-          "banner": "shopify:\/\/shop_images\/Banner.png"
+          "banner": "shopify:\/\/shop_images\/Banner.png",
+          "button_text": "About Us",
+          "link": "shopify:\/\/pages\/about-us"
         }
       },
       "16451884260bb00d04": {
