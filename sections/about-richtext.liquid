@@ -1,34 +1,37 @@
 <section class="about-us-content" id="scroll-down">
-    <div class="container">
-        <div class="about-us-bg" style="background-image: url('{{ section.settings.back_image | img_url : 'master' }}');">
-            <div class="about-us-text">
-                {{ section.settings.info }}
-            </div>
-        </div>
+  <div class="container">
+    <div class="about-us-bg" style="background-image: url('{{ section.settings.back_image | img_url : 'master' }}');">
+      <div class="mobile-girl-img d-none">
+        <img src="https://cdn.shopify.com/s/files/1/0570/4217/4089/files/mobile-girl-img.png?v=1647337619">
+      </div>  
+      <div class="about-us-text">
+        {{ section.settings.info }}
+      </div>
     </div>
+  </div>
 </section>
 {% schema %}
 {
-    "name" : "Richtext",
-    "settings" :
-    [
-        {
-            "type" : "image_picker",
-            "id" : "back_image",
-            "label" : "Background Image"
-        },
-        {
-            "type" : "richtext",
-            "id" : "info",
-            "label" : "Description"
-        }   
-    ],
-    "presets" :
-    [
-        {
-            "name" : "Richtext",
-            "category" : "Custom Sections"
-        }  
-    ]
+"name" : "Richtext",
+"settings" :
+[
+{
+"type" : "image_picker",
+"id" : "back_image",
+"label" : "Background Image"
+},
+{
+"type" : "richtext",
+"id" : "info",
+"label" : "Description"
+}   
+],
+"presets" :
+[
+{
+"name" : "Richtext",
+"category" : "Custom Sections"
+}  
+]
 }
 {% endschema %}
