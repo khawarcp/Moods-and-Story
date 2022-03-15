@@ -8,9 +8,12 @@
             {% endif %}
         </div>
         <h6> {{ section.settings.heading }} </h6>
+      <div class="insta-email-link">
         {% if settings.social_instagram_link != blank %}
         <a href="{{ settings.social_instagram_link }}" class="custom-site-btn"><i class="fa fa-instagram" aria-hidden="true"></i>{{  section.settings.insta_heading }}</a>
         {% endif %}
+        <a href="#" class="custom-site-btn"><img src="https://cdn.shopify.com/s/files/1/0570/4217/4089/files/email-icon.svg?v=1647336561">Email Us</a>
+      </div>
     </div>
     <div class="footer-bottom">
         <p> {{ section.settings.copyright }} </p>
