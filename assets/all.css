@@ -663,5 +663,47 @@ input.custom-site-btn.custom-site-btn2:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.mobile-img.d-none {
+    display: block !important;
+    width: 100%;
+}
+
+.home-banner {
+    display: flex;
+    background: none !important;
+    flex-direction: column-reverse;
+    min-height: auto;
+}
+
+.scroll-down {
+    display: none;
+}
+
+.home-text h4 {
+    color: #060705;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.home-text {
+    padding: 30px 0px;
+}
+
+.mobile-img.d-none img {
+    width: 100%;
+}
+
+.home-text .logo {
+    display: none;
+}
+
+.home-text p {
+    color: #060705;
+}
+
+.home-text-btns a {
+    border-color: #060705;
+    color: #060705 !important;
 }  
 }
