@@ -446,6 +446,25 @@ h2{
     text-align: center;
     margin: 0px auto 20px;
 }
+.subscribe-img img {
+    object-fit: contain;
+    max-width: 100%;
+    width: auto;
+    margin: auto;
+}
+
+.subscribe-text {
+    border-left: 1px solid rgb(180 179 180 / 30%);
+}
+
+input.custom-site-btn.custom-site-btn2 {
+    color: #060705 !important;
+    border-radius: 0px;
+}
+
+input.custom-site-btn.custom-site-btn2:hover {
+    color: #fff !important;
+}
 
 @media screen and (min-width:1400px){
     .scroll-down{
