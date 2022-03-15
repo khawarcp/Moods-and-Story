@@ -487,6 +487,9 @@ input.custom-site-btn.custom-site-btn2:hover {
 .insta-email-link a:hover img {
     filter: brightness(0) invert(0);
 }
+.about-properties-col {
+    border-color: rgb(180 179 180 / 20%) !important;
+}  
 @media screen and (min-width:1400px){
     .scroll-down{
         max-width: 1320px;
@@ -706,5 +709,61 @@ input.custom-site-btn.custom-site-btn2:hover {
 .home-text-btns a {
     border-color: #060705;
     color: #060705 !important;
+}
+.mobile-girl-img.d-none {
+    display: block !important;
+    margin: 0px -15px;
+}
+
+.about-us-bg {
+    background: none !important;
+    min-height: auto;
+    padding: 0;
+}
+
+.about-us-content {
+    padding: 20px 0px 30px;
+}
+
+.about-us-text {
+    padding: 30px 0px 0px;
+}
+
+.about-us-text p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.about-us-text p:last-child {
+    margin-bottom: 0px;
+}
+
+.about-properties-text p {
+    font-size: 15px;
+    max-width: 298px;
+    margin: 0px auto;
+}
+
+.about-properties-col {
+    padding: 70px 0px;
+}
+
+.story-teller-text input.custom-site-btn.custom-site-btn2 {
+    display: block;
+    width: 100%;
+}
+
+.story-teller .story-teller-text {
+    padding: 0;
+    FONT-VARIANT: JIS04;
+    FONT-VARIANT: JIS04;
+}
+
+.story-teller {
+    padding: 100px 0px 40px;
+}
+
+.about-properties-col {
+    border-color: rgb(180 179 180 / 20%) !important;
 }  
 }
