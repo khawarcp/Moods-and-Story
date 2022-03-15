@@ -198,14 +198,14 @@ img {
 
 .story-teller .row {
     align-items: center;
+    flex-direction:row-reverse;
 }
 
 .story-teller  .story-teller-text {
-    padding-right: 30px;
+    padding-right: 45px;
 }
 
 .story-teller .story-teller-text h4 {
-    max-width: 275px;
     color: #060705;
     margin-bottom: 20px;
 }
