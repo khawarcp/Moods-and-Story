@@ -13,9 +13,11 @@
         <div class="story-teller-text">
           <h4>{{ section.settings.heading }}</h4>
            <p>{{ section.settings.info_1 }}</p>
+          {% comment %}
           {% if section.settings.button_text != blank %}
           <a href="{{ section.settings.button_link }}" class="custom-site-btn custom-site-btn2 custom-site-btn3">{{ section.settings.button_text }}</a>
           {% endif %}
+          {% endcomment %}
         </div>
       </div>
     </div>
