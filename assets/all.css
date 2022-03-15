@@ -559,6 +559,17 @@ input.custom-site-btn.custom-site-btn2:hover {
     .subscribe-text {
         padding: 80px 30px;
     }
+  .subscribe-img img {
+    object-fit: contain;
+    width: auto;
+    height: auto;
+}
+
+.subscribe-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 }
 @media screen and (max-width:767px){
     .logo a {
@@ -641,5 +652,16 @@ input.custom-site-btn.custom-site-btn2:hover {
 .subscribe-text>button {
     top: -330px;
     right: 15px;
+}
+.subscribe-img img {
+    object-fit: contain;
+    width: auto;
+    height: auto;
+}
+
+.subscribe-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }  
 }
