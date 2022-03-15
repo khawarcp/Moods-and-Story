@@ -323,10 +323,37 @@
               "info": "When you have the freedom and creative tools to express yourself, you open the door to unlimited possibilities.",
               "image": "shopify:\/\/shop_images\/about-properties-img1.png"
             }
+          },
+          "d3459526-941c-4265-be4c-ab383d826121": {
+            "type": "property",
+            "settings": {
+              "heading": "Generosity",
+              "info": "Clothes that last can be passed along to more kids with stories to tell- that’s why we focus on quality fabrics and detailed craftsmanship.",
+              "image": "shopify:\/\/shop_images\/about-properties-img2.png"
+            }
+          },
+          "0bad20b5-484e-4243-a0d6-12f9c9f1b057": {
+            "type": "property",
+            "settings": {
+              "heading": "Fashion is Power",
+              "info": "We believe what you wear can reflect and change your mood. There is power in your style story.",
+              "image": "shopify:\/\/shop_images\/about-properties-img3.png"
+            }
+          },
+          "f3ecbd39-03a5-42cb-9ea3-fb9280c26c76": {
+            "type": "property",
+            "settings": {
+              "heading": "Self-Love is Stylish",
+              "info": "We believe that self-love is the ultimate style indicator..",
+              "image": "shopify:\/\/shop_images\/about-properties-img4.png"
+            }
           }
         },
         "block_order": [
-          "11bb2bc3-8973-43aa-8969-0bfa599535fd"
+          "11bb2bc3-8973-43aa-8969-0bfa599535fd",
+          "d3459526-941c-4265-be4c-ab383d826121",
+          "0bad20b5-484e-4243-a0d6-12f9c9f1b057",
+          "f3ecbd39-03a5-42cb-9ea3-fb9280c26c76"
         ],
         "settings": {
           "back_image": "shopify:\/\/shop_images\/about-properties-bg_eeaf0bc2-d625-44d6-8abe-3da13d26607c.png"
