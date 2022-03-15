@@ -53,7 +53,7 @@ a,span {
 
 .custom-site-btn {
     border-top: 1px solid #FFFFFF;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     text-transform: uppercase;
     border-bottom: 1px solid #FFFFFF;
     padding: 10px 15px;
@@ -62,7 +62,7 @@ a,span {
 
 .custom-site-btn:hover {
     background-color: #FFFFFF;
-    color: #000;
+    color: #060705 !important;
 }
 
 .scroll-down {
