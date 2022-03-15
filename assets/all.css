@@ -42,6 +42,7 @@ a,span {
 
 .home-text p {
     color: rgb(255 255 255 / 90%);
+    margin-bottom: 30px;
 }
 
 * {
