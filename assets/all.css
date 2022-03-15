@@ -465,7 +465,28 @@ input.custom-site-btn.custom-site-btn2 {
 input.custom-site-btn.custom-site-btn2:hover {
     color: #fff !important;
 }
+.insta-email-link a {
+    display: flex;
+    align-items: center;
+}
 
+.insta-email-link {
+    display: flex;
+    justify-content: center;
+}
+
+.insta-email-link a:last-child {
+    margin-left: 15px;
+}
+
+.insta-email-link a:last-child img {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.insta-email-link a:hover img {
+    filter: brightness(0) invert(0);
+}
 @media screen and (min-width:1400px){
     .scroll-down{
         max-width: 1320px;
