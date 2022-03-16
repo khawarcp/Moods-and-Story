@@ -771,13 +771,17 @@ input.custom-site-btn.custom-site-btn2:hover {
     visibility: hidden;
 }
 
-.about-properties-col:first-child .about-properties-img {
-    background-image: url('//cdn.shopify.com/s/files/1/0570/4217/4089/files/about-properties-img1.png?v=1645428928');
+.about-properties-col .about-properties-img {
     background-repeat: no-repeat;
     background-position: center;
 }
+.about-properties-col:nth-child(1) .about-properties-img {
+  background-image: url('//cdn.shopify.com/s/files/1/0570/4217/4089/files/about-properties-img1.png?v=1645428928');
+} 
 .about-properties-col:nth-child(2) .about-properties-img{
     background-image:url('//cdn.shopify.com/s/files/1/0570/4217/4089/files/about-properties-img2.png?v=1645428969');
 }
-
+.about-properties-col:nth-child(3) .about-properties-img{
+    background-image:url('//cdn.shopify.com/s/files/1/0570/4217/4089/files/about-properties-img3.png?v=1645429023');
+}
 }
