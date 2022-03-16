@@ -767,7 +767,7 @@ input.custom-site-btn.custom-site-btn2:hover {
 .about-properties-col {
     border-color: rgb(180 179 180 / 20%) !important;
 }
-.about-properties-col:first-child .about-properties-img img {
+.about-properties-col .about-properties-img img {
     visibility: hidden;
 }
 
