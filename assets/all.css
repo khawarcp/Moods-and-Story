@@ -489,7 +489,8 @@ input.custom-site-btn.custom-site-btn2:hover {
 }
 .about-properties-col {
     border-color: rgb(180 179 180 / 20%) !important;
-}  
+}
+
 @media screen and (min-width:1400px){
     .scroll-down{
         max-width: 1320px;
@@ -765,5 +766,14 @@ input.custom-site-btn.custom-site-btn2:hover {
 
 .about-properties-col {
     border-color: rgb(180 179 180 / 20%) !important;
+}
+.about-properties-img img {
+    visibility: hidden;
+}
+
+.about-properties-col:first-child .about-properties-img {
+    background-image: url('//cdn.shopify.com/s/files/1/0570/4217/4089/files/about-properties-img1.png?v=1645428928');
+    background-repeat: no-repeat;
+    background-position: center;
 }  
 }
