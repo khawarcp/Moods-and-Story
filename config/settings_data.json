@@ -220,6 +220,7 @@
       },
       "1645189468888b7fc6": {
         "type": "index-story",
+        "disabled": true,
         "settings": {
           "heading": "Something awesome is on the way!",
           "info_1": "Something awesome is on the way! Subscribe today and get access to exclusive launch details!",
@@ -307,6 +308,7 @@
       },
       "16473289722ee9711c": {
         "type": "about-richtext",
+        "disabled": true,
         "settings": {
           "back_image": "shopify:\/\/shop_images\/about-us-img.png",
           "info": "<p>Here at Moods & Story, we believe everyone is a storyteller and everyone has a story worth telling. Our mission is to empower young storytellers to express themselves through the language and art of fashion.<\/p><p>Shopping for pieces and creating style stories is a powerful way for parents and kids to connect. This process can often be a low pressure connection point. We hope Moods & Story sparks meaningful conversations and helps adults see children for who they are.<\/p><p> Our style house is led by mama of four, Jazzlyn Baker, who created the brand as a love note to her daughters. Everything we do, from our designs to our shopping experience, is guided by a mother's heart, and four very opinionated girls.<\/p>"
@@ -314,6 +316,7 @@
       },
       "16473291625f786e32": {
         "type": "about-properties",
+        "disabled": true,
         "blocks": {
           "11bb2bc3-8973-43aa-8969-0bfa599535fd": {
             "type": "property",
