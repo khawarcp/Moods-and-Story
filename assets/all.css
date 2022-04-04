@@ -516,9 +516,7 @@ input.custom-site-btn.custom-site-btn2:hover {
     padding: 0;
 }
 @media screen and (min-width:1400px){
-    .scroll-down{
-        max-width: 1320px;
-    }
+   
 }
 @media screen and (max-width:1199px){
     .home-banner {
