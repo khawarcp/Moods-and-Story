@@ -493,6 +493,11 @@ input.custom-site-btn.custom-site-btn2:hover {
 .home-banner  .container {
     max-width: 1300px;
 }
+.home-text-btns {
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+}
 @media screen and (min-width:1400px){
     .scroll-down{
         max-width: 1320px;
