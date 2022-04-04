@@ -497,6 +497,24 @@ input.custom-site-btn.custom-site-btn2:hover {
     display: flex;
     justify-content: center;
 }
+.home-banner .container {
+    max-width: 100%;
+    padding-left: 50px;
+}
+
+.scroll-down {
+    max-width: 100%;
+    padding-left: 50px;
+}
+
+.home-text {
+    padding: 0;
+}
+
+.insta-email-link a {
+    border: 0px;
+    padding: 0;
+}
 @media screen and (min-width:1400px){
     .scroll-down{
         max-width: 1320px;
