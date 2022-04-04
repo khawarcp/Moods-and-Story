@@ -809,5 +809,28 @@ input.custom-site-btn.custom-site-btn2:hover {
 .about-properties-col:nth-child(4) .about-properties-img{
     background-image:url('//cdn.shopify.com/s/files/1/0570/4217/4089/files/about-properties-img4.png?v=1645429056  ');
 }  
+.home-banner .container, .scroll-down {
+    padding-left: 20px;
+}
 
+.insta-email-link a {
+    color: #000 !important;
+}
+
+.home-banner {height: 100vh;justify-content: flex-end;}
+
+.home-text-btns {
+    justify-content: flex-start;
+}
+
+.scroll-down {
+    display: flex;
+    position: absolute;
+    bottom: 80px;
+    justify-content: center;
+}
+
+.insta-email-link a:last-child img {
+    filter: brightness(100%) invert(1);
+}
 }
