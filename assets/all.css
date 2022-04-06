@@ -63,11 +63,11 @@ a,span {
     transition: 0.2s all;
 }
 
-/* .custom-site-btn:hover {
+.custom-site-btn:hover {
     background-color: #FFFFFF;
     color: #060705 !important;
 }
- */
+
 .scroll-down {
     position: absolute;
     bottom: 50px;
