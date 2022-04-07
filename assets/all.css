@@ -68,6 +68,11 @@ a,span {
     color: #060705 !important;
 } */
 
+.insta-email-link a img {
+    margin-right: 10px;
+    width: 17px;
+}
+
 .scroll-down {
     position: absolute;
     bottom: 50px;
