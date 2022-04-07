@@ -488,9 +488,6 @@ input.custom-site-btn.custom-site-btn2:hover {
     margin-right: 10px;
 }
 
-.insta-email-link a:hover img {
-    filter: brightness(0) invert(0);
-}
 .about-properties-col {
     border-color: rgb(180 179 180 / 20%) !important;
 }
