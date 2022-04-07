@@ -64,7 +64,7 @@ a,span {
 }
 
 .custom-site-btn:hover {
-    background-color: #FFFFFF;
+/*     background-color: #FFFFFF; */
     color: #060705 !important;
 }
 
