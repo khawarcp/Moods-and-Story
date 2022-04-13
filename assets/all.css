@@ -833,6 +833,11 @@ input.custom-site-btn.custom-site-btn2:hover {
     justify-content: center;
 }
 
+  
+.insta-email-link a img {
+    filter: brightness(100%) invert(1);
+}
+  
 .insta-email-link a:last-child img {
     filter: brightness(100%) invert(1);
 }
